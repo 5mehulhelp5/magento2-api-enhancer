@@ -2,15 +2,14 @@
     "name": "msp/apienhancer",
     "description": "",
     "require": {
-        "php": "^7.0|^7.1",
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+        "magento/framework": ">=103.0.4 <104",
         "msp/common": "*"
     },
     "conflicts": {
         "msp/apiboost": "*"
     },
-    "suggest": {
-
-    },
+    "suggest": {},
     "type": "magento2-module",
     "license": "OSL 3.0",
     "autoload": {
@@ -20,5 +19,6 @@
         "psr-4": {
             "MSP\\APIEnhancer\\": ""
         }
-    }
+    },
+    "homepage": "https://github.com/SISL-source/magento2-api-enhancer"
 }
