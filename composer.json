@@ -1,10 +1,10 @@
 {
-    "name": "msp/apienhancer",
+    "name": "sisl-source/magento2-api-enhancer",
     "description": "",
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
         "magento/framework": ">=103.0.4 <104",
-        "msp/common": "*"
+        "sisl-source/magento2-msp-common": "^1.0"
     },
     "conflicts": {
         "msp/apiboost": "*"
