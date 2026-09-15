@@ -17,10 +17,9 @@ Ten fork rozluźnia zależności i jest zweryfikowany na **Magento 2.4.9 / PHP 8
 - Wymaga `msp/common` (nasz fork) oraz działającego **Varnisha** do faktycznego cache'owania API
 
 ## Instalacja
+
 ```bash
-composer config repositories.sisl-msp-common vcs https://github.com/SISL-source/magento2-msp-common
-composer config repositories.sisl-apienhancer vcs https://github.com/SISL-source/magento2-api-enhancer
-composer require msp/apienhancer:dev-main
+composer require sisl-source/magento2-api-enhancer
 bin/magento module:enable MSP_Common MSP_APIEnhancer
 bin/magento setup:upgrade
 bin/magento setup:di:compile   # tryb produkcyjny
