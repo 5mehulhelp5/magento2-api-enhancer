@@ -6,12 +6,9 @@
         "magento/framework": ">=103.0.4 <104",
         "sisl-source/magento2-msp-common": "^1.0"
     },
-    "conflicts": {
-        "msp/apiboost": "*"
-    },
     "suggest": {},
     "type": "magento2-module",
-    "license": "OSL 3.0",
+    "license": "OSL-3.0",
     "autoload": {
         "files": [
             "registration.php"
@@ -20,5 +17,8 @@
             "MSP\\APIEnhancer\\": ""
         }
     },
-    "homepage": "https://github.com/SISL-source/magento2-api-enhancer"
+    "homepage": "https://github.com/SISL-source/magento2-api-enhancer",
+    "conflict": {
+        "msp/apiboost": "*"
+    }
 }
