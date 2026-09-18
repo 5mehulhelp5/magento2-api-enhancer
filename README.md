@@ -41,3 +41,9 @@ Actual Varnish cache purging requires a running Varnish to be fully tested in yo
 
 ## License
 OSL-3.0 (same as upstream). Fork maintained by [SISL](https://sisl.pl).
+
+---
+
+### Maintained by SISL
+
+Maintained fork by **[SISL](https://sisl.pl)** — [Magento 2 development and modules](https://sisl.pl/moduly-magento). More self-hosted plugins: [SISL Marketplace](https://sisl.pl/sklep).
